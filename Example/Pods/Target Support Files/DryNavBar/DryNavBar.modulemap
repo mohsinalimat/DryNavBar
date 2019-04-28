@@ -1,0 +1,6 @@
+framework module DryNavBar {
+  umbrella header "DryNavBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - DryNavBar (0.1.0)
+
+DEPENDENCIES:
+  - DryNavBar (from `../`)
+
+EXTERNAL SOURCES:
+  DryNavBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DryNavBar: 32f5c6fde0f76b7fa79edded0fb9f8106dfbfe23
+
+PODFILE CHECKSUM: df49002595b50dc65179ee2129616861c62a253d
+
+COCOAPODS: 1.7.0.beta.3

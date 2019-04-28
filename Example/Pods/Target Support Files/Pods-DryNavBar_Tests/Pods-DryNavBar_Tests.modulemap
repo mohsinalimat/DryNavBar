@@ -1,0 +1,6 @@
+framework module Pods_DryNavBar_Tests {
+  umbrella header "Pods-DryNavBar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D58D9D230DF798678F08801302162B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		5DFFD5AF5844209280BA7AE276442765 /* Pods-DryNavBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A93E8D0AA0A089960A5B9107DEAF8CB /* Pods-DryNavBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E64F1694ADF0DF893803A31183D3F0F /* Pods-DryNavBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F05D7785CDA9C93586FA3DF2A662AE71 /* Pods-DryNavBar_Example-dummy.m */; };
+		5FCF4FCA8947BB1B715F332AE72B730E /* DryNavBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C60D20245EF772E46B9A3291D4831E3 /* DryNavBar-dummy.m */; };
+		67A35964BD5929C639AD920E621FC85F /* Pods-DryNavBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241D25305B2AD2CBA5CBB180807B9BF /* Pods-DryNavBar_Tests-dummy.m */; };
+		6B8C24F7A046DF2C4A7AA0C2244D6E41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		942CE6259EAF4A5EF536867C91BB782E /* Pods-DryNavBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5976BBB856AD82E29CF9874DE1062E56 /* Pods-DryNavBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8CB074CCC9D3C97D49B06F38A885D1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5043A6FE41E64AA4433D46D8F7AC1D15 /* ReplaceMe.swift */; };
+		ADF9257A7C2418C6D577A4C0FC125A3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		E0BF6442D3EE93B92BB6DAB1D866E194 /* DryNavBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F69CA960EA29A5A765B1DB48A19B83E /* DryNavBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63E881362D4372A5ABD5F31A194A8ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 012095AC69921CBE0BB6167287A03D9A;
+			remoteInfo = DryNavBar;
+		};
+		90BF6E616883820C438CDC3CB01F3397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1709ED41EB06FD7AEF56CD92F4E6CF3;
+			remoteInfo = "Pods-DryNavBar_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048CFFAFE9F4C2B0420FB51505802D1C /* Pods-DryNavBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DryNavBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		113292BE67AF8A41F3C493467076489E /* Pods-DryNavBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DryNavBar_Example.modulemap"; sourceTree = "<group>"; };
+		1241D25305B2AD2CBA5CBB180807B9BF /* Pods-DryNavBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DryNavBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		3382BA5BA20924730BB66ED8C1B45B80 /* DryNavBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DryNavBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4B6957A2EFC1EAD6F369F5292108D177 /* Pods-DryNavBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryNavBar_Example-Info.plist"; sourceTree = "<group>"; };
+		5043A6FE41E64AA4433D46D8F7AC1D15 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DryNavBar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		53D011610404EF65DCE09799421DB0D2 /* Pods_DryNavBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DryNavBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54064BAD6E36B56C6C2D4BCCFDDC1B86 /* Pods-DryNavBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryNavBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5783D2F23D6828EFF1DD24ADEA36C16F /* Pods-DryNavBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryNavBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5976BBB856AD82E29CF9874DE1062E56 /* Pods-DryNavBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DryNavBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		5F69CA960EA29A5A765B1DB48A19B83E /* DryNavBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DryNavBar-umbrella.h"; sourceTree = "<group>"; };
+		668282CE4FD803CA07C99C7854AF1968 /* Pods-DryNavBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DryNavBar_Tests.modulemap"; sourceTree = "<group>"; };
+		6B41652A2C3AF5E5DE004DA2CF7BE8CF /* Pods-DryNavBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryNavBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C60D20245EF772E46B9A3291D4831E3 /* DryNavBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DryNavBar-dummy.m"; sourceTree = "<group>"; };
+		6CD3D6D78980283ED44F5F979E1B8607 /* DryNavBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DryNavBar.xcconfig; sourceTree = "<group>"; };
+		72E967293905DC640531A35C3888D6A6 /* DryNavBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DryNavBar-prefix.pch"; sourceTree = "<group>"; };
+		7A93E8D0AA0A089960A5B9107DEAF8CB /* Pods-DryNavBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DryNavBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7BBC5C60EF3A3203EC5DCAB79D8FC72B /* DryNavBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DryNavBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D3497CCC36698FA81F4E77E82B56DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8894C479E1A610CB67867855FF0526C1 /* Pods_DryNavBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DryNavBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E4E619327DB7B615FBD7B4D15B3B50 /* Pods-DryNavBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DryNavBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A840C3961927324658EBA7443ADABEBE /* Pods-DryNavBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryNavBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B277B2816BE450E7BAD7789CF42B5C14 /* Pods-DryNavBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryNavBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B47B99C83DBBE9FDDE34047B7F69F85A /* Pods-DryNavBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryNavBar_Tests-Info.plist"; sourceTree = "<group>"; };
+		B656E3F17777D36EA56E9EBFC3C6B30D /* DryNavBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DryNavBar.modulemap; sourceTree = "<group>"; };
+		BA2DA115EFA79C1ACE5EDAC2196405A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D967D3ADD43862FDB4C9FB50A104841F /* DryNavBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DryNavBar-Info.plist"; sourceTree = "<group>"; };
+		DB4E31F9BE2A36506800AC84D64CC67C /* Pods-DryNavBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryNavBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F05D7785CDA9C93586FA3DF2A662AE71 /* Pods-DryNavBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DryNavBar_Example-dummy.m"; sourceTree = "<group>"; };
+		F261AC792C75C093315446D7966FF563 /* Pods-DryNavBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DryNavBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AB9B9536EA58A891399188665AE5339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF9257A7C2418C6D577A4C0FC125A3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C0D0680B9CAD9FBCF2C0199F5141935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8C24F7A046DF2C4A7AA0C2244D6E41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A5793F36555C277B9E09A6AD9A624B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D58D9D230DF798678F08801302162B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1876C52DB0936F2252A62BF5FE89580F /* DryNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				5043A6FE41E64AA4433D46D8F7AC1D15 /* ReplaceMe.swift */,
+				CA3E77DBCF6E28968A491FD684E800AE /* Pod */,
+				D6C3420DF61CA121376F8B7662901D00 /* Support Files */,
+			);
+			name = DryNavBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3E7EECD122FB082B2C5F7D6D28252B1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC5C60EF3A3203EC5DCAB79D8FC72B /* DryNavBar.framework */,
+				8894C479E1A610CB67867855FF0526C1 /* Pods_DryNavBar_Example.framework */,
+				53D011610404EF65DCE09799421DB0D2 /* Pods_DryNavBar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4673FFF2774DBA0A38BAF795D90099F3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE506EFB12D1BBC0CCD7630FE51024A6 /* Pods-DryNavBar_Example */,
+				7A639E1813BCE43DF666D17DAF47C5E5 /* Pods-DryNavBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		77148FB07DCF032D61E0A991A8BD74E7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1876C52DB0936F2252A62BF5FE89580F /* DryNavBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7A639E1813BCE43DF666D17DAF47C5E5 /* Pods-DryNavBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				668282CE4FD803CA07C99C7854AF1968 /* Pods-DryNavBar_Tests.modulemap */,
+				048CFFAFE9F4C2B0420FB51505802D1C /* Pods-DryNavBar_Tests-acknowledgements.markdown */,
+				B277B2816BE450E7BAD7789CF42B5C14 /* Pods-DryNavBar_Tests-acknowledgements.plist */,
+				1241D25305B2AD2CBA5CBB180807B9BF /* Pods-DryNavBar_Tests-dummy.m */,
+				B47B99C83DBBE9FDDE34047B7F69F85A /* Pods-DryNavBar_Tests-Info.plist */,
+				7A93E8D0AA0A089960A5B9107DEAF8CB /* Pods-DryNavBar_Tests-umbrella.h */,
+				6B41652A2C3AF5E5DE004DA2CF7BE8CF /* Pods-DryNavBar_Tests.debug.xcconfig */,
+				DB4E31F9BE2A36506800AC84D64CC67C /* Pods-DryNavBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-DryNavBar_Tests";
+			path = "Target Support Files/Pods-DryNavBar_Tests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA3E77DBCF6E28968A491FD684E800AE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3382BA5BA20924730BB66ED8C1B45B80 /* DryNavBar.podspec */,
+				84D3497CCC36698FA81F4E77E82B56DD /* LICENSE */,
+				BA2DA115EFA79C1ACE5EDAC2196405A1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CE506EFB12D1BBC0CCD7630FE51024A6 /* Pods-DryNavBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				113292BE67AF8A41F3C493467076489E /* Pods-DryNavBar_Example.modulemap */,
+				F261AC792C75C093315446D7966FF563 /* Pods-DryNavBar_Example-acknowledgements.markdown */,
+				A840C3961927324658EBA7443ADABEBE /* Pods-DryNavBar_Example-acknowledgements.plist */,
+				F05D7785CDA9C93586FA3DF2A662AE71 /* Pods-DryNavBar_Example-dummy.m */,
+				89E4E619327DB7B615FBD7B4D15B3B50 /* Pods-DryNavBar_Example-frameworks.sh */,
+				4B6957A2EFC1EAD6F369F5292108D177 /* Pods-DryNavBar_Example-Info.plist */,
+				5976BBB856AD82E29CF9874DE1062E56 /* Pods-DryNavBar_Example-umbrella.h */,
+				54064BAD6E36B56C6C2D4BCCFDDC1B86 /* Pods-DryNavBar_Example.debug.xcconfig */,
+				5783D2F23D6828EFF1DD24ADEA36C16F /* Pods-DryNavBar_Example.release.xcconfig */,
+			);
+			name = "Pods-DryNavBar_Example";
+			path = "Target Support Files/Pods-DryNavBar_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				77148FB07DCF032D61E0A991A8BD74E7 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3E7EECD122FB082B2C5F7D6D28252B1D /* Products */,
+				4673FFF2774DBA0A38BAF795D90099F3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6C3420DF61CA121376F8B7662901D00 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B656E3F17777D36EA56E9EBFC3C6B30D /* DryNavBar.modulemap */,
+				6CD3D6D78980283ED44F5F979E1B8607 /* DryNavBar.xcconfig */,
+				6C60D20245EF772E46B9A3291D4831E3 /* DryNavBar-dummy.m */,
+				D967D3ADD43862FDB4C9FB50A104841F /* DryNavBar-Info.plist */,
+				72E967293905DC640531A35C3888D6A6 /* DryNavBar-prefix.pch */,
+				5F69CA960EA29A5A765B1DB48A19B83E /* DryNavBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DryNavBar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		748FE26FBBD410E7FEDDF5490ACEEC50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BF6442D3EE93B92BB6DAB1D866E194 /* DryNavBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF36CF6495F2B9C2DB7F577F771E724 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942CE6259EAF4A5EF536867C91BB782E /* Pods-DryNavBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C879F106AEB24FE17907E69DB188FFEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFFD5AF5844209280BA7AE276442765 /* Pods-DryNavBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		012095AC69921CBE0BB6167287A03D9A /* DryNavBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF18CCEABA9DA4CAC4518F67412DCEEA /* Build configuration list for PBXNativeTarget "DryNavBar" */;
+			buildPhases = (
+				748FE26FBBD410E7FEDDF5490ACEEC50 /* Headers */,
+				30BD0F0AC6D2A49ED83987997DB50CA3 /* Sources */,
+				B4A5793F36555C277B9E09A6AD9A624B /* Frameworks */,
+				8A0FF78BDF0C0DF1F6907516DAE87B2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DryNavBar;
+			productName = DryNavBar;
+			productReference = 7BBC5C60EF3A3203EC5DCAB79D8FC72B /* DryNavBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D29861F7CA20756E19ECB82A8B4546B2 /* Pods-DryNavBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB325E7BAAC862A857FDBD6FA54D0626 /* Build configuration list for PBXNativeTarget "Pods-DryNavBar_Tests" */;
+			buildPhases = (
+				C879F106AEB24FE17907E69DB188FFEB /* Headers */,
+				15DE8E8D5D0B296F8606BC37873AA1FB /* Sources */,
+				9C0D0680B9CAD9FBCF2C0199F5141935 /* Frameworks */,
+				739B8E388FDCDE1689876A457F5A0D2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0004819E4935F9C7F8A6D56233D5DCCE /* PBXTargetDependency */,
+			);
+			name = "Pods-DryNavBar_Tests";
+			productName = "Pods-DryNavBar_Tests";
+			productReference = 53D011610404EF65DCE09799421DB0D2 /* Pods_DryNavBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1709ED41EB06FD7AEF56CD92F4E6CF3 /* Pods-DryNavBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE48EFFAF489223C68FC8A2B7EB109D /* Build configuration list for PBXNativeTarget "Pods-DryNavBar_Example" */;
+			buildPhases = (
+				ADF36CF6495F2B9C2DB7F577F771E724 /* Headers */,
+				04471E362EF380795A84BBC43D7BABF0 /* Sources */,
+				7AB9B9536EA58A891399188665AE5339 /* Frameworks */,
+				11DBA4653486F7EF6F45AE58AAD600EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				405E8E2C93097A164971C6AC113A1FB3 /* PBXTargetDependency */,
+			);
+			name = "Pods-DryNavBar_Example";
+			productName = "Pods-DryNavBar_Example";
+			productReference = 8894C479E1A610CB67867855FF0526C1 /* Pods_DryNavBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					012095AC69921CBE0BB6167287A03D9A = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3E7EECD122FB082B2C5F7D6D28252B1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				012095AC69921CBE0BB6167287A03D9A /* DryNavBar */,
+				E1709ED41EB06FD7AEF56CD92F4E6CF3 /* Pods-DryNavBar_Example */,
+				D29861F7CA20756E19ECB82A8B4546B2 /* Pods-DryNavBar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11DBA4653486F7EF6F45AE58AAD600EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739B8E388FDCDE1689876A457F5A0D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0FF78BDF0C0DF1F6907516DAE87B2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04471E362EF380795A84BBC43D7BABF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E64F1694ADF0DF893803A31183D3F0F /* Pods-DryNavBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DE8E8D5D0B296F8606BC37873AA1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A35964BD5929C639AD920E621FC85F /* Pods-DryNavBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BD0F0AC6D2A49ED83987997DB50CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCF4FCA8947BB1B715F332AE72B730E /* DryNavBar-dummy.m in Sources */,
+				9B8CB074CCC9D3C97D49B06F38A885D1 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0004819E4935F9C7F8A6D56233D5DCCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DryNavBar_Example";
+			target = E1709ED41EB06FD7AEF56CD92F4E6CF3 /* Pods-DryNavBar_Example */;
+			targetProxy = 90BF6E616883820C438CDC3CB01F3397 /* PBXContainerItemProxy */;
+		};
+		405E8E2C93097A164971C6AC113A1FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DryNavBar;
+			target = 012095AC69921CBE0BB6167287A03D9A /* DryNavBar */;
+			targetProxy = 63E881362D4372A5ABD5F31A194A8ACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		094F91A44B2547CDC0908A2A83117123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4E31F9BE2A36506800AC84D64CC67C /* Pods-DryNavBar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryNavBar_Tests/Pods-DryNavBar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryNavBar_Tests/Pods-DryNavBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		390F9AA09E784D1D35BC7DD644957387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD3D6D78980283ED44F5F979E1B8607 /* DryNavBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DryNavBar/DryNavBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DryNavBar/DryNavBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DryNavBar/DryNavBar.modulemap";
+				PRODUCT_MODULE_NAME = DryNavBar;
+				PRODUCT_NAME = DryNavBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39DB31F88E168FC4FC2940DD1008F611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5783D2F23D6828EFF1DD24ADEA36C16F /* Pods-DryNavBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryNavBar_Example/Pods-DryNavBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryNavBar_Example/Pods-DryNavBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5098982B6D4AD1D8E4DF4ADA9C9616E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54064BAD6E36B56C6C2D4BCCFDDC1B86 /* Pods-DryNavBar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryNavBar_Example/Pods-DryNavBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryNavBar_Example/Pods-DryNavBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5826928363AA66D15EC8A27A56DA8F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD3D6D78980283ED44F5F979E1B8607 /* DryNavBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DryNavBar/DryNavBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DryNavBar/DryNavBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DryNavBar/DryNavBar.modulemap";
+				PRODUCT_MODULE_NAME = DryNavBar;
+				PRODUCT_NAME = DryNavBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E93E67C8ED49CFA5B8FB588A0FBECD7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B41652A2C3AF5E5DE004DA2CF7BE8CF /* Pods-DryNavBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryNavBar_Tests/Pods-DryNavBar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryNavBar_Tests/Pods-DryNavBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF18CCEABA9DA4CAC4518F67412DCEEA /* Build configuration list for PBXNativeTarget "DryNavBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390F9AA09E784D1D35BC7DD644957387 /* Debug */,
+				5826928363AA66D15EC8A27A56DA8F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB325E7BAAC862A857FDBD6FA54D0626 /* Build configuration list for PBXNativeTarget "Pods-DryNavBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93E67C8ED49CFA5B8FB588A0FBECD7E /* Debug */,
+				094F91A44B2547CDC0908A2A83117123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE48EFFAF489223C68FC8A2B7EB109D /* Build configuration list for PBXNativeTarget "Pods-DryNavBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5098982B6D4AD1D8E4DF4ADA9C9616E6 /* Debug */,
+				39DB31F88E168FC4FC2940DD1008F611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
