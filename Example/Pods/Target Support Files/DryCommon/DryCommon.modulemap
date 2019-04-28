@@ -1,0 +1,6 @@
+framework module DryCommon {
+  umbrella header "DryCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}

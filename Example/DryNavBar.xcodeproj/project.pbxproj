@@ -42,7 +42,7 @@
 		84AF0F838DE4718818A9B3D6 /* Pods-DryNavBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DryNavBar_Example.release.xcconfig"; path = "Target Support Files/Pods-DryNavBar_Example/Pods-DryNavBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		89790623CF52BE3AA641BE06 /* Pods_DryNavBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DryNavBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7120169CA74C88964FBBA3 /* Pods_DryNavBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DryNavBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A52ADE1DD65C17475EED0024 /* DryNavBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DryNavBar.podspec; path = ../DryNavBar.podspec; sourceTree = "<group>"; };
+		A52ADE1DD65C17475EED0024 /* DryNavBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DryNavBar.podspec; path = ../DryNavBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AAB382450662CAE521064C4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B9716AACC5A75EFC61E9B11D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BAA85D4CC81074B78FC6785C /* Pods-DryNavBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DryNavBar_Tests.release.xcconfig"; path = "Target Support Files/Pods-DryNavBar_Tests/Pods-DryNavBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -270,10 +270,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DryNavBar_Example/Pods-DryNavBar_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DryCommon/DryCommon.framework",
 				"${BUILT_PRODUCTS_DIR}/DryNavBar/DryNavBar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DryCommon.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DryNavBar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

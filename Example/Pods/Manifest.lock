@@ -1,16 +1,23 @@
 PODS:
-  - DryNavBar (0.1.0)
+  - DryCommon (0.0.1)
+  - DryNavBar (0.0.1):
+    - DryCommon (= 0.0.1)
 
 DEPENDENCIES:
   - DryNavBar (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DryCommon
 
 EXTERNAL SOURCES:
   DryNavBar:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DryNavBar: 32f5c6fde0f76b7fa79edded0fb9f8106dfbfe23
+  DryCommon: 646c76b3f23fc69fa4f96ddb0bb93f857694c05e
+  DryNavBar: ea4afcdd87c7cf2caaf242464f97f71842b6ee5e
 
-PODFILE CHECKSUM: df49002595b50dc65179ee2129616861c62a253d
+PODFILE CHECKSUM: 385e66d75697a1cfe98b8b5df0acf09a63bcf978
 
 COCOAPODS: 1.7.0.beta.3
