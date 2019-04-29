@@ -73,6 +73,6 @@ extension DryNavBar {
         /// 添加1像素高度的水平视图到 “底部横线视图”
         let alphaColor: UIColor = color.withAlphaComponent(alpha)
         let width: CGFloat = DryNavBar.navBarWidth(at: vc)
-        bottomLine.dry_addHorLine(withColor: alphaColor, width: 0, x: 0, y: width)
+        bottomLine.dry_addHorLine(withColor: alphaColor, width: width, x: 0, y: 0)
     }
 }
