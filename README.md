@@ -1,5 +1,6 @@
 # DryNavBar
 iOS: 导航栏配置
+* 制作该SDK的目的在于，简化导航栏设置时代码量，尽量实现一句代码实现一个功能；
 
 
 ## Prerequisites
@@ -13,4 +14,5 @@ iOS: 导航栏配置
 
 
 ## Features
-### 
+* 仅标题、仅图片、左图右文、右图左文、上图下文、 下图上文
+![](https://github.com/duanruiying/DryNavBar/raw/master/Image/1.png)

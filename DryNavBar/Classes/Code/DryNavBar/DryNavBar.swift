@@ -60,6 +60,17 @@ public enum DryNavBarTitleMode: Int {
 //MARK: - DryNavBar(基础属性)
 @objc
 public class DryNavBar: NSObject {
+    
+    /// @说明 隐藏导航栏
+    /// @参数 vc: 视图控制器
+    /// @返回 void
+    @objc
+    public static func setNavBarHidden(_ hidden: Bool,
+                                       vc: UIViewController,
+                                       animated: Bool) {
+        
+        vc.navigationController?.setNavigationBarHidden(hidden, animated: animated)
+    }
 
     /// @说明 导航栏宽度
     /// @参数 vc: 视图控制器
