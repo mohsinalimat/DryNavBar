@@ -15,10 +15,10 @@ iOS: 导航栏配置
 
 ## Features
 * 仅标题(数字角标)、仅图片(圆点角标)、左图右文、右图左文、上图下文、 下图上文
-![](https://github.com/duanruiying/DryNavBar/raw/master/Image/2.png)
+![](https://github.com/duanruiying/DryNavBar/raw/master/Image/11.png)
 
 * 背景色、底线
-![](https://github.com/duanruiying/DryNavBar/raw/master/Image/3.png)
+![](https://github.com/duanruiying/DryNavBar/raw/master/Image/22.png)
 
 * 进度
-![](https://github.com/duanruiying/DryNavBar/raw/master/Image/4.png)
+![](https://github.com/duanruiying/DryNavBar/raw/master/Image/33.png)
